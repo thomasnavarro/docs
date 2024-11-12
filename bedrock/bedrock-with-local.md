@@ -75,7 +75,7 @@ Local's site config is located at `~/Local Sites/bedrock/conf/nginx/site.conf.hb
 server {
     listen {{port}};
 -   root   "{{root}}";
-+   root   "/Users/username/Local Sites/bedrock/app/bedrock/web";
++   root   "{{root}}/web";
 ```
 
 In the example above, the full path is based on a macOS machine and requires the username to be changed to the one you are using. You will need to modify this path for Windows and Linux setups to reflect the full path to the `app/bedrock/web` directory.
